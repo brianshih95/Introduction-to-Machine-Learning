@@ -53,7 +53,6 @@ class LinearRegression:
 
     # This function takes the input data X and predicts the y values according to your gradient descent solution.
     def gradient_descent_predict(self, X):
-        print(X.shape)
         # Return the prediction.
         y_pred = X.dot(self.gradient_descent_weights) + self.gradient_descent_intercept
         return y_pred
